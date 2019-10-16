@@ -8,7 +8,7 @@
     "build": "babel src --out-dir dist ",
     "test": "cross-env NODE_ENV=test jest --forceExit",
     "sql": "sequelize",
-    "start": "yarn dev"
+    "start": "node dist/index.js"
   },
   "author": "Hung Ha",
   "license": "ISC",
