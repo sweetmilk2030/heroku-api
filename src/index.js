@@ -3,7 +3,7 @@ import app from './app';
 
 const dbg = debug('BE001:main');
 
-const port = process.env.PORT || 2400;
+const port = process.env.PORT || 80;
 
 (async () => {
   await app.listen(port);
